@@ -1,0 +1,12 @@
+[project]
+name = "orr"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.163.2",
+    "pillow>=13.0.0",
+    "requests>=2.34.2",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+    "uvicorn>=0.54.0",
+]
