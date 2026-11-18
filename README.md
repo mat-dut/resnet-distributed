@@ -3,7 +3,7 @@
 Rozpoznawanie obrazów modelem ResNet-50 w trzech wersjach:
 
 - **sekwencyjna** (`sequential.py`): 1 proces, 1 wątek, 1 obraz naraz,
-- **równoległa** (`parallel.py`): model podzielony na 4 etapy, każdy w osobnym procesie, połączone kolejkami jak taśma produkcyjna,
+- **równoległa** (`parallel.py`): model podzielony na 4 etapy, każdy w osobnym procesie, połączone kolejkami,
 - **rozproszona** (`agent.py`): laptopy (agenci) pobierają paczki plików do przetworzenia i odsyłają wyniki.
 
 ## Przygotowanie
